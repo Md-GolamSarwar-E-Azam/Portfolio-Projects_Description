@@ -1,5 +1,5 @@
 # Analyzing Netflix Content Trends
-
+### **![Project Image](images/1.png)**
 This project explores a **Netflix dataset** to understand content trends, growth, and popularity. The dataset `netflix_titles` contains comprehensive information about movies and TV shows available on Netflix.
 
 **Dataset Description:**
