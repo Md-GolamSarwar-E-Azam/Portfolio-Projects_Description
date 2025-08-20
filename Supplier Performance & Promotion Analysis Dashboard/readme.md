@@ -16,12 +16,15 @@ This project focused on building a **two-page analytical dashboard** to enhance 
 - **Selling quality trend chart** displaying product quantity and transaction timelines.  
 - **Item details overview table** with supplier information, pricing, discounts, and totals.  
 
+### **![Supplier Wise Profitability Summary](images/80_20 Performance.png)**
+
 ### Page 2: Supplier Wise Contribution Overview
 - Dynamic filters and parameters including **target percentage of sales** and **time range**.  
 - **Pareto analysis chart** illustrating the 80/20 principle, highlighting suppliers contributing the most to sales revenue (MRP).  
 - **Target supplier details table** showing supplier code, contribution percentage, and sales values.  
 - **Below-target item details table** to identify underperforming suppliers.  
 
+### **![Supplier Wise Profitability Summary](images/Supplier analytics.png)**
 ---
 
 ## 🚀 Business Impact
