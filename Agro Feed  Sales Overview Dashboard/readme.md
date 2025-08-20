@@ -1,4 +1,4 @@
-# 📈 Agribusiness Sales Performance Dashboard
+# 📈 Agro Feed Sales Performance Dashboard
 
 <p align="justify">This project presents a data analysis dashboard for a leading agribusiness company, focusing on the operational performance of its sales outlets and products. The dashboard provides a comprehensive overview of sales trends and outlet performance using key metrics and visualizations, allowing stakeholders to quickly identify areas of improvement and monitor operational health.</p>
 
@@ -12,7 +12,6 @@ The dashboard is divided into several key sections to provide a holistic view of
 
 This section provides top-level metrics and controls for the dashboard.
 * **Time Filter**: Allows users to toggle between **YTD**, **MTD**, or **Last Month**.
-* **Business Category Selector**: Enables filtering by product categories such as **Feed**, **Chicks**, and **Eggs**.
 * **Top-Level KPIs**: Displays key metrics like **Total Paying Parties**, **Total Volume Sold**, **Target Volume**, and **Total Sales Amount (BDT)**.
 * **Gauge Chart**: A visual representation that shows **volume sold vs. target** as a percentage.
 
