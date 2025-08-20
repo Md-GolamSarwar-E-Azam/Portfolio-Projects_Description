@@ -1,6 +1,21 @@
 # Analyzing Netflix Content Trends
 
-This project explores a **Netflix dataset** to understand content trends, growth, and popularity. Key insights include country associations, top directors, the balance between movies and TV shows, and genre growth rates. The dataset `netflix_titles` contains comprehensive information about movies and TV shows available on Netflix. Columns include: `show_id` (unique identifier), `type` (Movie or TV Show), `title` (name of the content), `director` (director(s)), `cast` (main actors/actresses), `country` (production country), `date_added` (date added to Netflix), `release_year` (year of release), `rating` (age rating), `duration` (duration), `listed_in` (genre(s)), and `description` (brief summary).
+This project explores a **Netflix dataset** to understand content trends, growth, and popularity. The dataset `netflix_titles` contains comprehensive information about movies and TV shows available on Netflix.
+
+**Dataset Description:**
+
+* `show_id`: Unique identifier for each title
+* `type`: Category of the title (Movie or TV Show)
+* `title`: Name of the movie or TV show
+* `director`: Director(s) of the title
+* `cast`: Main actors or actresses
+* `country`: Country where the content was produced
+* `date_added`: Date when the title was added to Netflix
+* `release_year`: Year the content was released
+* `rating`: Age rating of the title
+* `duration`: Duration of the title
+* `listed_in`: Genre(s) of the title
+* `description`: Brief summary of the title
 
 **SQL Queries and Analyses:**
 
@@ -100,5 +115,11 @@ GROUP BY TRIM(genre)
 ORDER BY AVG(growth) DESC;
 ```
 
-## Key insights include: 
-a significant portion of content does not have a country associated, a few prolific directors dominate the dataset, movie vs TV show distribution varies year by year reflecting content strategy trends, and certain genres are growing faster than others, indicating shifts in viewer preference. Technologies used include SQL Server for querying and analysis, with optional visualization in Excel, Tableau, or Python. This project highlights Netflix content trends and growth patterns, offering insights into production countries, popular directors, content type distributions, and genre growth, which can guide decision-making in content acquisition and recommendation strategies.
+**Key Insights:**
+
+* A significant portion of content does not have a country associated.
+* A few prolific directors dominate the dataset.
+* Movie vs TV show distribution varies year by year, reflecting content strategy trends.
+* Certain genres are growing faster than others, indicating shifts in viewer preference.
+
+Technologies used include SQL Server for querying and analysis, with optional visualization in Excel, Tableau, or Python. This project highlights Netflix content trends and growth patterns, offering insights into production countries, popular directors, content type distributions, and genre growth, which can guide decision-making in content acquisition and recommendation strategies.
