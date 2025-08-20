@@ -122,4 +122,4 @@ ORDER BY AVG(growth) DESC;
 * Movie vs TV show distribution varies year by year, reflecting content strategy trends.
 * Certain genres are growing faster than others, indicating shifts in viewer preference.
 
-Technologies used include SQL Server for querying and analysis, with optional visualization in Excel, Tableau, or Python. This project highlights Netflix content trends and growth patterns, offering insights into production countries, popular directors, content type distributions, and genre growth, which can guide decision-making in content acquisition and recommendation strategies.
+This project highlights Netflix content trends and growth patterns, offering insights into production countries, popular directors, content type distributions, and genre growth, which can guide decision-making in content acquisition and recommendation strategies.
