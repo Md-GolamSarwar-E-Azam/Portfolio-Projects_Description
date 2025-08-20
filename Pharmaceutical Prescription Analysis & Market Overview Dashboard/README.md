@@ -1,5 +1,4 @@
-# Pharmaceutical Sales Analysis Dashboard (Bangladesh)
-
+# Pharmaceutical Sales Analysis Dashboard 
 ## Project Overview
 
 This project presents a comprehensive, interactive dashboard developed to analyze prescription trends and market dynamics within the pharmaceutical sector of Bangladesh. The solution provides key stakeholders with actionable insights, enabling them to monitor market share, evaluate brand performance, understand prescriber behavior, benchmark competitors, and identify untapped market opportunities. The project leverages a multi-page Power BI report to deliver a unified and insightful data experience.
@@ -37,7 +36,7 @@ This section provides a detailed, granular view of prescription data, enabling d
 * **Specialty-wise Healthcare Breakdown:** Analyzes sales data across different medical specialties within hospitals and clinics.
 * **Prescribed Doctors Bar Chart:** Displays prescription quantity by individual doctors. This visual is highly interactive, allowing for a guided drill-down from division → company → brand → institution → doctor. Filters are designed to cascade across all visuals, enabling users to trace prescription patterns down to the doctor level.
 
-### **![Prescription Analysis Page](your-image-path-3.png)**
+### **![Prescription Analysis Page](images/Analysis.png)**
 
 ---
 
@@ -50,7 +49,7 @@ This section is dedicated to competitive intelligence, supporting a side-by-side
 * **Specialty-wise Healthcare Type Comparison:** Compares hospital vs. clinic sales percentages by specialty type for each company.
 * **Doctor Prescription Comparison:** Provides a side-by-side view of doctor-level prescription volumes for both companies, facilitating direct comparison of prescriber behavior.
 
-### **![Comparative Analysis Page](your-image-path-4.png)**
+### **![Comparative Analysis Page](images/Comparative.png)**
 
 ---
 
@@ -68,7 +67,7 @@ This section is designed to identify brand placement gaps and evaluate market ex
   * Markets that are missing one or more of the top 5 brands are flagged with a green gap indicator.
   * Details of the specific brand gaps are displayed in columns on the right.
 
-### **![Opportunity Analysis Page](your-image-path-5.png)**
+### **![Opportunity Analysis Page](images/Opportunity Dashboard.png)**
 
 ---
 
