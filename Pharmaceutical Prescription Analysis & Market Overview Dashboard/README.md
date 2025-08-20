@@ -1,10 +1,10 @@
-# Pharmaceutical Sales Analysis Dashboard (Bangladesh)
+# Pharmaceutical Sales Analysis Dashboard 
 
 ## Project Overview
 
 This project presents a comprehensive, interactive dashboard developed to analyze prescription trends and market dynamics within the pharmaceutical sector of Bangladesh. The solution provides key stakeholders with actionable insights, enabling them to monitor market share, evaluate brand performance, understand prescriber behavior, benchmark competitors, and identify untapped market opportunities. The project leverages a multi-page Power BI report to deliver a unified and insightful data experience.
 
-<a href="images/Analysis.png"><img src="images/Analysis.png" alt="Pharma Market & Prescription Analysis Dashboard" width="750" /></a>
+### **![Opportunity Analysis Page](images/Analysis.png)**
 
 ## Key Features
 
@@ -18,7 +18,7 @@ This section offers a high-level, strategic overview of market performance.
 * **Top N Companies Bar Chart:** A dynamic chart that allows users to rank and view the top `N` companies based on sales, controlled via a parameter.
 * **Therapeutic Class Tree Map:** Displays sales amount across different therapeutic classes. This visual is interactive, with a drill-down feature that updates the company rankings to show performance within a specific therapeutic class.
 
-### **[Image Placeholder: Insert an image showing the Market Status Page layout]**
+<a href="images/Status.png"><img src="images/Status.png" alt="Pharma Market & Prescription Analysis Dashboard" width="750" /></a> 
 
 ### **2. Prescription Analysis Page**
 
