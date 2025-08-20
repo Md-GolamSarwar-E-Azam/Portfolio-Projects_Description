@@ -3,6 +3,7 @@
 <p align="justify">This project presents a data analysis dashboard for a leading agribusiness company, focusing on the operational performance of its sales outlets and products. The dashboard provides a comprehensive overview of sales trends and outlet performance using key metrics and visualizations, allowing stakeholders to quickly identify areas of improvement and monitor operational health.</p>
 
 ---
+### **![Image1](images/1.png)**
 
 ## Dashboard Features
 
