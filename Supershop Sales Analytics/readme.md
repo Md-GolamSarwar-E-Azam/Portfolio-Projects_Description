@@ -10,6 +10,7 @@ The dashboard is structured into two main sections: a **Summary Page** for a hig
 ## 🚀 Key Features
 
 ### Summary Page
+### **![Image1](images/1.png)**
 The Summary Page gives a quick, at-a-glance view of the SuperShop's overall performance.
 
 * **Filters**: A toggle filter allows users to select different outlet names. An indicator shows whether the sales target has been met for the selected outlet.
@@ -29,6 +30,7 @@ The Summary Page gives a quick, at-a-glance view of the SuperShop's overall perf
     * **Bubble chart**: Displays **Net Sales by outlet**, where bubble size indicates sales magnitude.
 
 ### Trend Analysis Page
+### **![Image1](images/2.png)**
 This dedicated page is for a deep-dive exploration of sales data.
 
 * **Customizable Filters**: Users can select a specific **KPI (Net Sales, Gross Sales, Gross Profit, Invoices)**, a **date range**, and a **department**.
