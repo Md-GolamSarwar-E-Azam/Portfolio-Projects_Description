@@ -82,5 +82,5 @@ This section is designed to identify brand placement gaps and evaluate market ex
 
 ## Technologies Used
 
-* **Data Analysis & Visualization:** Power BI
-* **Other Tools:** Excel, SQL, (You can add other tools like Python, R, etc., if applicable)
+* **Data Analysis & Visualization:** Tableau, SQL, Excel
+
