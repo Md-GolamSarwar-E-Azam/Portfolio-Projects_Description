@@ -48,5 +48,5 @@ This section is dedicated to competitive intelligence, supporting a side-by-side
 
 ## Technologies Used
 
-* **Data Analysis & Visualization:** Power BI
-* **Other Tools:** (You can add other tools like Excel, SQL, Python, etc., if applicable)
+* **Data Analysis & Visualization:** Tableau
+* **Other Tools:**  Excel, SQL
