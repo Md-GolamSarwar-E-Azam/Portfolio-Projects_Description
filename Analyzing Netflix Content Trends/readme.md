@@ -1,36 +1,88 @@
-# 🎬 Netflix Content Analysis
+# Analyzing Netflix Content Trends
 
-An exploratory data analysis project focused on understanding content trends, growth, and popularity on Netflix using a provided dataset. The project leverages **SQL** to query and analyze the data, with the goal of uncovering key insights into the platform's content library.
+This project explores a **Netflix dataset** to understand content trends, growth, and popularity. Key insights include country associations, top directors, the balance between movies and TV shows, and genre growth rates. The dataset `netflix_titles` contains comprehensive information about movies and TV shows available on Netflix. Columns include: `show_id` (unique identifier), `type` (Movie or TV Show), `title` (name of the content), `director` (director(s)), `cast` (main actors/actresses), `country` (production country), `date_added` (date added to Netflix), `release_year` (year of release), `rating` (age rating), `duration` (duration), `listed_in` (genre(s)), and `description` (brief summary).
 
-## 📊 Key Findings
+**SQL Queries and Analyses:**
 
-* **Content Distribution:** An analysis of the dataset revealed the balance between movies and TV shows, highlighting which content type dominates the platform's library.
-* **Geographical Association:** The project identified the percentage of content entries that lack a country association, which is a key data quality metric.
-* **Top Directors:** The top 3 directors with the most content on Netflix were identified, along with the release year of their most recent title.
-* **Content Growth Over Time:** The percentage of movies versus TV shows added annually from 2015 to 2021 was calculated to visualize how Netflix's content strategy has evolved over the years.
-* **Genre Trends:** The project determined the average month-over-month growth rate for different genres and pinpointed the top 5 fastest-growing genres on the platform.
+Count of Movies vs TV Shows:
+SELECT type, COUNT(\*) AS COUNT
+FROM netflix\_titles
+GROUP BY type;
 
-## ⚙️ Project Structure
+\-- OR
 
-The project is structured around a series of SQL queries designed to answer specific questions about the Netflix dataset.
+SELECT
+COUNT(DISTINCT CASE WHEN type = 'Movie' THEN show\_id END) AS Movie\_Count,
+COUNT(DISTINCT CASE WHEN type = 'TV Show' THEN show\_id END) AS Tv\_ShowCount
+FROM netflix\_titles;
 
-* `Netflix_Movies_&_Shows.sql`: This file contains all the SQL code used for the analysis, with each query addressing a specific question outlined in the "Key Findings" section.
+Percentage of Content Without a Country:
+SELECT
+COUNT(*) AS TotalContent,
+CAST(COUNT(CASE WHEN country IS NULL THEN 1 END) AS decimal) AS CountryAssociatedCOUNT,
+CAST(COUNT(CASE WHEN country IS NULL THEN 1 END) AS decimal)/ CAST(COUNT(*) AS decimal) \*100 AS percentage\_without\_country
+FROM netflix\_titles;
 
-## 📦 Dataset
+Top 3 Directors with the Most Content:
+;WITH director\_stats AS
+(
+SELECT
+director,
+COUNT(\*) AS titles\_Count,
+MAX(release\_year) AS most\_recent\_year
+FROM netflix\_titles
+WHERE director IS NOT NULL AND director <> ''
+GROUP BY director
+)
+SELECT TOP 3 \*
+FROM director\_stats
+ORDER BY titles\_Count DESC;
 
-The analysis is based on a `netflix_titles` dataset, which contains detailed information about movies and TV shows, including:
-* `show_id`: Unique identifier for each title.
-* `type`: Category (Movie/TV Show).
-* `title`: The name of the content.
-* `director`: The director of the content.
-* `country`: Country of production.
-* `date_added`: Date the title was added to Netflix.
-* `release_year`: The original release year.
-* `rating`: Age rating.
-* `duration`: Length of the content.
-* `listed_in`: Genres.
-* `description`: A brief summary.
+Movie vs TV Show Distribution (2015–2021):
+WITH yearly\_count AS
+(
+SELECT
+DATEPART(YEAR, date\_added) AS Year,
+type,
+COUNT(\*) AS Count
+FROM netflix\_titles
+WHERE date\_added BETWEEN '2015-01-01' AND '2021-01-01' AND date\_added IS NOT NULL
+GROUP BY DATEPART(YEAR, date\_added), type
+)
+SELECT
+Year,
+CAST(SUM(CASE WHEN type = 'Movie' THEN Count END) AS numeric) / CAST(SUM(Count) AS numeric) \* 100 AS Movie\_Percentage,
+CAST(SUM(CASE WHEN type = 'TV Show' THEN Count END) AS numeric) / CAST(SUM(Count) AS numeric) \* 100 AS TVShow\_Percentage
+FROM yearly\_count
+GROUP BY Year;
 
-## ✨ How to Use
+Top 5 Fastest Growing Genres (Average Month-over-Month Growth):
+WITH genre\_month AS
+(
+SELECT
+CAST(DATEADD(MONTH, DATEDIFF(MONTH,0,date\_added), 0) AS DATE) AS Month,
+VALUE AS Genre,
+COUNT(\*) AS monthly\_count
+FROM netflix\_titles
+CROSS APPLY string\_split(listed\_in, ',')
+WHERE date\_added IS NOT NULL
+GROUP BY DATEADD(MONTH, DATEDIFF(MONTH, 0, date\_added), 0), VALUE
+),
+growth\_rate AS
+(
+SELECT
+genre,
+Month,
+monthly\_count,
+LAG(monthly\_count) OVER(PARTITION BY genre ORDER BY genre, Month) AS prev\_month\_count,
+(CAST(monthly\_count - LAG(monthly\_count) OVER(PARTITION BY genre ORDER BY genre, Month) AS numeric) / CAST(LAG(monthly\_count) OVER(PARTITION BY genre ORDER BY genre, Month) AS numeric)) \* 100 AS growth
+FROM genre\_month
+)
+SELECT TOP 5
+TRIM(genre) AS genre,
+AVG(growth) AS avg\_growth
+FROM growth\_rate
+GROUP BY TRIM(genre)
+ORDER BY AVG(growth) DESC;
 
-To run the queries, simply execute the code in the `Netflix_Movies_&_Shows.sql` file on a SQL environment connected to the `netflix_titles` dataset. The code is well-commented to explain the purpose of each query and its logic.
+Key insights include: a significant portion of content does not have a country associated, a few prolific directors dominate the dataset, movie vs TV show distribution varies year by year reflecting content strategy trends, and certain genres are growing faster than others, indicating shifts in viewer preference. Technologies used include SQL Server for querying and analysis, with optional visualization in Excel, Tableau, or Python. This project highlights Netflix content trends and growth patterns, offering insights into production countries, popular directors, content type distributions, and genre growth, which can guide decision-making in content acquisition and recommendation strategies.
