@@ -16,7 +16,7 @@ This project focused on building a **two-page analytical dashboard** to enhance 
 - **Selling quality trend chart** displaying product quantity and transaction timelines.  
 - **Item details overview table** with supplier information, pricing, discounts, and totals.  
 
-### **![Supplier Wise Profitability Summary](images/80_20 Performance.png)**
+### **![Image1](images/1.png)**
 
 ### Page 2: Supplier Wise Contribution Overview
 - Dynamic filters and parameters including **target percentage of sales** and **time range**.  
@@ -24,7 +24,7 @@ This project focused on building a **two-page analytical dashboard** to enhance 
 - **Target supplier details table** showing supplier code, contribution percentage, and sales values.  
 - **Below-target item details table** to identify underperforming suppliers.  
 
-### **![Supplier Wise Contribution Overview page](images/Supplier analytics.png)**
+### **![Image1](images/2.png)**
 ---
 
 ## 🚀 Business Impact
