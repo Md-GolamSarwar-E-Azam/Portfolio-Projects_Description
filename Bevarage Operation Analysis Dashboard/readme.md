@@ -2,6 +2,7 @@
 
 This project presents a data analysis dashboard for a beverage company, focusing on the operational performance of its sales outlets. The dashboard provides a comprehensive overview of sales trends and outlet performance using key metrics and visualizations, allowing stakeholders to quickly identify areas of improvement and monitor operational health.
 
+### **![Image1](images/1.png)**
 ## Dashboard Features
 
 The dashboard is divided into several key sections to provide a holistic view of the data.
