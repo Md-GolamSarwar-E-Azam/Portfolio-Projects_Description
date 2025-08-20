@@ -24,7 +24,7 @@ This project focused on building a **two-page analytical dashboard** to enhance 
 - **Target supplier details table** showing supplier code, contribution percentage, and sales values.  
 - **Below-target item details table** to identify underperforming suppliers.  
 
-### **![Supplier Wise Profitability Summary](images/Supplier analytics.png)**
+### **![Supplier Wise Contribution Overview page](images/Supplier analytics.png)**
 ---
 
 ## 🚀 Business Impact
