@@ -4,7 +4,7 @@
 
 This project presents a comprehensive, interactive dashboard developed to analyze prescription trends and market dynamics within the pharmaceutical sector of Bangladesh. The solution provides key stakeholders with actionable insights, enabling them to monitor market share, evaluate brand performance, understand prescriber behavior, benchmark competitors, and identify untapped market opportunities. The project leverages a multi-page Power BI report to deliver a unified and insightful data experience.
 
-### **[images/Analysis.png]**
+<a href="images/Analysis.png"><img src="images/Analysis.png" alt="Pharma Market & Prescription Analysis Dashboard" width="750" /></a>
 
 ## Key Features
 
@@ -33,7 +33,7 @@ This section provides a detailed, granular view of prescription data, enabling d
 * **Specialty-wise Healthcare Breakdown:** Analyzes sales data across different medical specialties within hospitals and clinics.
 * **Prescribed Doctors Bar Chart:** Displays prescription quantity by individual doctors. This visual is highly interactive, allowing for a guided drill-down from division → company → brand → institution → doctor. Filters are designed to cascade across all visuals, enabling users to trace prescription patterns down to the doctor level.
 
-### **[Image Placeholder: Insert an image showing the Prescription Analysis Page with some filters applied]**
+<a href="images/Analysis.png"><img src="images/Analysis.png" alt="Pharma Market & Prescription Analysis Dashboard" width="750" /></a>
 
 ### **3. Comparative Analysis Page**
 
