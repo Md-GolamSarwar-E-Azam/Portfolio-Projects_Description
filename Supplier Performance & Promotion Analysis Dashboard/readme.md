@@ -1,7 +1,7 @@
 # Supplier Profitability and Contribution Dashboard
 
 ## 📌 Project Summary
-Developed a **Supplier Profitability and Contribution Dashboard** for **SuperShop**, designed to provide decision-makers with clear insights into supplier performance, sales contribution, and profitability. The dashboard leverages interactive filters, scenario analysis, and visualizations to identify key suppliers, monitor trends, and drive data-backed business strategies.
+<p align="justify">Developed a **Supplier Profitability and Contribution Dashboard** for **SuperShop**, designed to provide decision-makers with clear insights into supplier performance, sales contribution, and profitability. The dashboard leverages interactive filters, scenario analysis, and visualizations to identify key suppliers, monitor trends, and drive data-backed business strategies.</p>
 
 ---
 
