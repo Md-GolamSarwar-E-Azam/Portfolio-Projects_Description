@@ -67,7 +67,7 @@ This section is designed to identify brand placement gaps and evaluate market ex
   * Markets that are missing one or more of the top 5 brands are flagged with a green gap indicator.
   * Details of the specific brand gaps are displayed in columns on the right.
 
-### **![Opportunity Analysis Page](images/Opportunity Dashboard.png)**
+### **![Opportunity Analysis Page](images/Opportunity.png)**
 
 ---
 
