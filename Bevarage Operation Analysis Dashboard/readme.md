@@ -42,6 +42,6 @@ This section features three stacked bar charts, each providing a different persp
 
 ## Technologies Used
 
-- **Dashboard Tool**: [Tableau]
-- **Languages**: [SQL]
+- **Dashboard Tool**: Tableau
+- **Languages**: SQL
 
