@@ -9,6 +9,10 @@ Key metrics such as **active customers, inactive customers, churn rate, and cust
 ## 📖 Project Description
 A comprehensive analysis of Akash Digital TV’s customer data was conducted using **Power BI** to gain insights into **customer churn patterns and retention strategies**.  
 The analysis focused on **active/inactive customers, churn rates, and demographics**, uncovering trends and patterns that impact customer retention.
+---
+### 🔹 Dashboard Pages:
+
+**![Project Image](images/1.jpg)**
 
 ---
 
