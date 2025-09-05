@@ -13,6 +13,9 @@ A comprehensive analysis of superstore sales data was conducted using **Power BI
 Metrics analyzed include **sales, profit, orders, returns, customer demographics, and regional trends**, with the goal of uncovering optimization opportunities.
 
 ---
+### 🔹 Dashboard Pages:
+### **![Project Image](images/1.png)**
+---
 
 ### 🔹 Key Findings
 
