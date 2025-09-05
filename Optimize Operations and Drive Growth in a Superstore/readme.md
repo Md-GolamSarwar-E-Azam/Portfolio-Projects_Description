@@ -14,7 +14,13 @@ Metrics analyzed include **sales, profit, orders, returns, customer demographics
 
 ---
 ### 🔹 Dashboard Pages:
-### **![Project Image](images/1.png)**
+
+**![Project Image](images/1.jpg)**
+
+**![Project Image](images/2.jpg)**
+
+**![Project Image](images/3.jpg)**
+
 ---
 
 ### 🔹 Key Findings
