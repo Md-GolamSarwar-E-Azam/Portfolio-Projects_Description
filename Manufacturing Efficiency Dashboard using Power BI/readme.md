@@ -1,4 +1,4 @@
-# RMG Factory – Manufacturing Efficiency Analysis (Power BI)
+# Factory – Manufacturing Efficiency Analysis (Power BI)
 
 ## 📌 Project Summary
 This project analyzed **manufacturing efficiency data** for an **RMG (Ready-Made Garments) factory** to gain insights into production performance, identify bottlenecks, and optimize operational efficiency.  
