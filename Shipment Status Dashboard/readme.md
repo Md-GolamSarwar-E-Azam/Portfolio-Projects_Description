@@ -12,12 +12,12 @@ The dashboard was built in **Power BI** to analyze shipment status at both **Sin
 It includes **interactive KPIs, trend analysis, and filtering options** to track shipment progress and identify pending quantities.
 
 ---
-
 ### 🔹 Dashboard:
 
 **![Project Image](images/1.jpg)**
 
 ---
+
 ## 🔹 Dashboard Components
 
 ### 1. KPI Card Visuals (Top Section)
