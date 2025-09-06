@@ -9,8 +9,8 @@ Key metrics such as sales, profit, orders, returns, and customer demographics we
 ## 📖 Project Description
 
 ### 🔹 Overview
-<p align="justify">A comprehensive analysis of superstore sales data was conducted using **Power BI** to gain a holistic understanding of sales performance and identify areas for improvement.  
-Metrics analyzed include **sales, profit, orders, returns, customer demographics, and regional trends**, with the goal of uncovering optimization opportunities.</p>
+<p align="justify">A comprehensive analysis of superstore sales data was conducted using <b>Power BI<b> to gain a holistic understanding of sales performance and identify areas for improvement.  
+Metrics analyzed include  <b>sales, profit, orders, returns, customer demographics, and regional trends<b>, with the goal of uncovering optimization opportunities.</p>
 
 ---
 ### 🔹 Dashboard Pages:
