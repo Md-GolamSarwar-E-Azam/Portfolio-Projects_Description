@@ -1,7 +1,7 @@
 # Superstore Sales Analysis – Power BI
 
 ## 📌 Project Summary
-<p align="justify">This project analyzed sales data for a superstore to gain insights into <p>sales performance, profitability, customer behavior, and regional trends<p>.  
+<p align="justify">This project analyzed sales data for a superstore to gain insights into <b>sales performance, profitability, customer behavior, and regional trends<b>.  
 Key metrics such as sales, profit, orders, returns, and customer demographics were explored to identify opportunities for improvement and optimize business operations.</p>
 
 ---
