@@ -13,6 +13,13 @@ A comprehensive analysis of RMG factory production data was conducted using **Po
 The analysis focused on **planned vs. actual hours, efficiency, and NPT** to improve overall productivity.
 
 ---
+### 🔹 Dashboard Pages:
+
+**![Project Image](images/1.jpg)**
+
+**![Project Image](images/2.jpg)**
+
+---
 
 ## 🔹 Key Findings
 
