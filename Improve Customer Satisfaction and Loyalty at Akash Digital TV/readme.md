@@ -1,14 +1,14 @@
 # Akash Digital TV – Customer Churn Analysis (Power BI)
 
 ## 📌 Project Summary
-This project analyzed **customer churn data** for **Akash Digital TV**, a dish TV service provider.  
-Key metrics such as **active customers, inactive customers, churn rate, and customer demographics** were examined to identify factors influencing customer retention and highlight areas for improvement.
+<p align="justify">This project analyzed <b>customer churn data<b> for <b>Akash Digital TV<b>, a dish TV service provider.  
+Key metrics such as <b>active customers, inactive customers, churn rate, and customer demographics<b> were examined to identify factors influencing customer retention and highlight areas for improvement.</p>
 
 ---
 
 ## 📖 Project Description
-A comprehensive analysis of Akash Digital TV’s customer data was conducted using **Power BI** to gain insights into **customer churn patterns and retention strategies**.  
-The analysis focused on **active/inactive customers, churn rates, and demographics**, uncovering trends and patterns that impact customer retention.
+<p align="justify">A comprehensive analysis of Akash Digital TV’s customer data was conducted using <b>Power BI<b> to gain insights into <b>customer churn patterns and retention strategies<b>.  
+The analysis focused on <b>active/inactive customers, churn rates, and demographics<b>, uncovering trends and patterns that impact customer retention.</p>
 
 ---
 ### 🔹 Dashboard Pages:
