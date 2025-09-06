@@ -13,6 +13,11 @@ It includes **interactive KPIs, trend analysis, and filtering options** to track
 
 ---
 
+### 🔹 Dashboard:
+
+**![Project Image](images/1.jpg)**
+
+---
 ## 🔹 Dashboard Components
 
 ### 1. KPI Card Visuals (Top Section)
