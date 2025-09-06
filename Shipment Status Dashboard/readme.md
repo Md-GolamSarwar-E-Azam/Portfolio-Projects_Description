@@ -1,7 +1,7 @@
 # Shipment Status Dashboard – Manufacturing Factories (Power BI)
 
 ## 📌 Project Summary
-In This project I developed a **Shipment Status Dashboard** for manufacturing factories to monitor **shipment and packing performance** against planned quantities.  
+In this project I developed a **Shipment Status Dashboard** for manufacturing factories to monitor **shipment and packing performance** against planned quantities.  
 The dashboard provides **real-time visibility** into shipment balance, packaging status, and order performance, enabling better coordination between departments and buyers.
 
 ---
