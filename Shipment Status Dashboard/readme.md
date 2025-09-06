@@ -10,8 +10,8 @@ The dashboard provides <b>real-time visibility</b> into shipment balance, packag
 
 ## 📖 Project Description
 
-<p align="justify"> The dashboard was built in </p>Power BI</p> to analyze shipment status at both </p>Single Unit</p> and </p>FOB (Free on Board) Unit</p> levels.  
-It includes </p>interactive KPIs, trend analysis, and filtering options</p> to track shipment progress and identify pending quantities.</p>
+<p align="justify"> The dashboard was built in <b>Power BI<b> to analyze shipment status at both <b>Single Unit<b> and <b>FOB (Free on Board) Unit<b> levels.  
+It includes <b>interactive KPIs, trend analysis, and filtering options<b> to track shipment progress and identify pending quantities.</p>
 
 ---
 ### 🔹 Dashboard:
