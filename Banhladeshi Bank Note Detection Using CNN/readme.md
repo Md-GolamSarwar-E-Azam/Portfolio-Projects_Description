@@ -5,9 +5,9 @@
 
 ### 🔹 Project Images:
 
-**![Project Image](images/1.pnj)**
-**![Project Image](images/2.pnj)**
-**![Project Image](images/3.pnj)**
+**![Project Image](images/1.png)**
+**![Project Image](images/2.png)**
+**![Project Image](images/3.png)**
 
 ---
 
