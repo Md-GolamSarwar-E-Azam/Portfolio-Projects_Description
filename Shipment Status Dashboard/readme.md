@@ -2,7 +2,7 @@
 
 ## 📌 Project Summary
 <p align="justify">
-In this project I developed a <b>Shipment Status Dashboard</b> for manufacturing factories to monitor <b>shipment and packing performance</b> against planned quantities.  
+In this project I have developed a <b>Shipment Status Dashboard</b> for manufacturing factories to monitor <b>shipment and packing performance</b> against planned quantities.  
 The dashboard provides <b>real-time visibility</b> into shipment balance, packaging status, and order performance, enabling better coordination between departments and buyers.
 </p>
 
