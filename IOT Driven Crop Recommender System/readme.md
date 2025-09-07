@@ -26,7 +26,7 @@ The system consists of the following components:
 - **IoT Sensors:** Collect data on soil composition and environmental factors.  
 - **Raspberry Pi:** Acts as a data acquisition and processing unit.  
 - **Cloud Platform:** Stores and processes data, runs machine learning models, and provides recommendations.  
-- **Android App:** User interface for farmers to access recommendations.  
+- **Web App:** User interface for farmers to access recommendations.  
 
 ---
 
