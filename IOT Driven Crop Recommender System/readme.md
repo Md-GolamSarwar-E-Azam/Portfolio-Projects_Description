@@ -70,18 +70,19 @@ Performance was evaluated using **accuracy, precision, recall, and F1-score**:
 | LightGBM            | 0.99     | 0.99      | 0.99   | 0.99     |
 
 <p align="justify">
-Based on these results, **LightGBM** was selected as the best-performing model, achieving superior accuracy, precision, recall, and overall performance.
+Based on these results, **LightGBM** was selected as the best-performing model, achieving superior performance across all key metrics.
 </p>
 
 ---
 
 ## Crop Recommendations
 <p align="justify">
-The system provides real-time recommendations for suitable crops based on the collected data and the trained LightGBM model. Recommendations are delivered through the Android app.
+The system provides real-time recommendations for suitable crops based on the collected data and the trained LightGBM model. Recommendations are delivered via the Android app.
 </p>
 
 🔗 [View the Crop Recommender App](https://croprecommender.anvil.app/)  
-📓 Python notebook link available inside the project files.  
+📓 Explore the full implementation in the following Colab notebook:  
+🔗 [Google Colab Notebook](https://colab.research.google.com/drive/1S74GQ0mPJ7lsJaxWqShPSXyjwYYaUbUw)
 
 ---
 
@@ -98,4 +99,3 @@ The system provides real-time recommendations for suitable crops based on the co
 - Optimizes **resource utilization**.  
 - Improves **crop yields and livelihoods**.  
 - Contributes to **sustainable agriculture practices**.  
-
