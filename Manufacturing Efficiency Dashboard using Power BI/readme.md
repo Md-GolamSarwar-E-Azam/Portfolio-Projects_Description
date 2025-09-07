@@ -1,7 +1,7 @@
 # Factory – Manufacturing Efficiency Analysis (Power BI)
 
 ## 📌 Project Summary
-This project analyzed **manufacturing efficiency data** for an **RMG (Ready-Made Garments) factory** to gain insights into production performance, identify bottlenecks, and optimize operational efficiency.  
+In this project I have analyzed **manufacturing efficiency data** for an **RMG (Ready-Made Garments) factory** to gain insights into production performance, identify bottlenecks, and optimize operational efficiency.  
 Key metrics such as **planned hours, actual produced hours, efficiency, and Non-Productive Time (NPT)** were examined to highlight opportunities for improvement.
 
 ---
