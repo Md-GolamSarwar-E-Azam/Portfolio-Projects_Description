@@ -1,4 +1,4 @@
-# Shipment Status Dashboard – Manufacturing Factories (Power BI)
+# Manufacturing Factories Shipment Status Dashboard (Power BI)
 
 ## 📌 Project Summary
 <p align="justify">
