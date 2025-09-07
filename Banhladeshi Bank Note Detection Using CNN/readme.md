@@ -3,7 +3,7 @@
 
 ---
 
-### 🔹 Dashboard Pages:
+### 🔹 Project Images:
 
 **![Project Image](images/1.pnj)**
 **![Project Image](images/2.pnj)**
