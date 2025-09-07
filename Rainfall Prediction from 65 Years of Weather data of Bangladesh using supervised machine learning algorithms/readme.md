@@ -14,7 +14,8 @@ This project aimed to develop accurate rainfall prediction models for Bangladesh
 **![Project Image](images/4.png)**
 **![Project Image](images/5.png)**
 **![Project Image](images/6.png)**
-**![Project Image](images/6.png)**
+**![Project Image](images/7.png)**
+**![Project Image](images/0.png)**
 
 ---
 
