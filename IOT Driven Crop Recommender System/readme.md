@@ -56,7 +56,16 @@ Several machine learning models were implemented and evaluated:
 - **LightGBM**
 
 ---
+### 🔹 Project Images:
 
+**![Project Image](images/1.png)**
+**![Project Image](images/2.png)**
+**![Project Image](images/3.png)**
+**![Project Image](images/4.png)**
+**![Project Image](images/5.png)**
+**![Project Image](images/6.png)**
+
+---
 ## Model Evaluation and Selection
 Performance was evaluated using **accuracy, precision, recall, and F1-score**:
 
