@@ -1,5 +1,13 @@
 # Project Overview  
-<p align="justify">This project aimed to develop a <b></b>robust and accurate system<b></b> for detecting <b></b>Bangladeshi currency notes<b> </b> particularly those that are **old or worn-out**. By leveraging the power of **Convolutional Neural Networks (CNNs)**, the project successfully addressed the challenges associated with traditional banknote recognition methods.</p>  
+<p align="justify">This project aimed to develop a <b></b>robust and accurate system<b></b> for detecting <b></b>Bangladeshi currency notes<b> </b> particularly those that are <b>old or worn-out<b>. By leveraging the power of <b>Convolutional Neural Networks (CNNs)<b>, the project successfully addressed the challenges associated with traditional banknote recognition methods.</p>  
+
+---
+
+### 🔹 Dashboard Pages:
+
+**![Project Image](images/1.pnj)**
+**![Project Image](images/2.pnj)**
+**![Project Image](images/3.pnj)**
 
 ---
 
