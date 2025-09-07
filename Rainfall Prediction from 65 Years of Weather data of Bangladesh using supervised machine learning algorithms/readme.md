@@ -6,6 +6,17 @@ This project aimed to develop accurate rainfall prediction models for Bangladesh
 </p>
 
 ---
+### 🔹 Project Images:
+
+**![Project Image](images/1.png)**
+**![Project Image](images/2.png)**
+**![Project Image](images/3.png)**
+**![Project Image](images/4.png)**
+**![Project Image](images/5.png)**
+**![Project Image](images/6.png)**
+**![Project Image](images/6.png)**
+
+---
 
 ## Key Achievements
 - **Comprehensive Model Evaluation:** Implemented and compared nine supervised machine learning models: Multiple Linear Regression, Polynomial Regression, Decision Tree, K-Nearest Neighbors, Support Vector Machine, Random Forest, AdaBoost Regressor, Stacking Regressor, and Artificial Neural Network.  
