@@ -17,6 +17,7 @@ The analysis focused on **planned vs. actual hours, efficiency, and NPT** to imp
 
 **![Project Image](images/1.jpg)**
 
+
 **![Project Image](images/2.jpg)**
 
 ---
